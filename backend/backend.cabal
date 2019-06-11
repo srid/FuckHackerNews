@@ -12,8 +12,11 @@ library
                , frontend
                , obelisk-backend
                , obelisk-route
+               , scalpel
+               , text
   exposed-modules:
     Backend
+    Backend.Scraper
   ghc-options: -Wall
 
 executable backend
@@ -26,3 +29,5 @@ executable backend
                , common
                , frontend
                , obelisk-backend
+               , scalpel
+               , text
