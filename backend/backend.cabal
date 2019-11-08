@@ -29,5 +29,3 @@ executable backend
                , common
                , frontend
                , obelisk-backend
-               , scalpel
-               , text
